@@ -9,7 +9,7 @@ public class MainController {
     @ResponseBody
     @RequestMapping("/main/hello")
     public String main() {
-        return "hello world123123";
+        return "hello world123";
     }
 
 }

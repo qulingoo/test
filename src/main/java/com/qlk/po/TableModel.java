@@ -1,30 +1,20 @@
 package com.qlk.po;
 
-/**
- * 表模型
- */
 public class TableModel {
     private String id;
-    private String tableNameChn;
-    private String tableNameEng;
-    private String describes;
 
-    @Override
-    public String toString() {
-        return "TableModel{" +
-                "id='" + id + '\'' +
-                ", tableNameChn='" + tableNameChn + '\'' +
-                ", tableNameEng='" + tableNameEng + '\'' +
-                ", describes='" + describes + '\'' +
-                '}';
-    }
+    private String tableNameChn;
+
+    private String tableNameEng;
+
+    private String describes;
 
     public String getId() {
         return id;
     }
 
     public void setId(String id) {
-        this.id = id;
+        this.id = id == null ? null : id.trim();
     }
 
     public String getTableNameChn() {
@@ -32,7 +22,7 @@ public class TableModel {
     }
 
     public void setTableNameChn(String tableNameChn) {
-        this.tableNameChn = tableNameChn;
+        this.tableNameChn = tableNameChn == null ? null : tableNameChn.trim();
     }
 
     public String getTableNameEng() {
@@ -40,7 +30,7 @@ public class TableModel {
     }
 
     public void setTableNameEng(String tableNameEng) {
-        this.tableNameEng = tableNameEng;
+        this.tableNameEng = tableNameEng == null ? null : tableNameEng.trim();
     }
 
     public String getDescribes() {
@@ -48,6 +38,6 @@ public class TableModel {
     }
 
     public void setDescribes(String describes) {
-        this.describes = describes;
+        this.describes = describes == null ? null : describes.trim();
     }
 }

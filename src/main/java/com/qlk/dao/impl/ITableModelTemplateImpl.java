@@ -1,6 +1,6 @@
 package com.qlk.dao.impl;
 
-import com.qlk.dao.ITableModelDao;
+import com.qlk.dao.model.ITableModelDao;
 import com.qlk.po.TableModel;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
@@ -40,18 +40,10 @@ public class ITableModelTemplateImpl implements ITableModelDao {
         return 0;
     }
 
-    @Override
-    public int delete(int id) {
-        return 0;
-    }
 
     @Override
     public TableModel findById(String id) {
         return null;
     }
 
-    @Override
-    public TableModel findById(int id) {
-        return null;
-    }
 }

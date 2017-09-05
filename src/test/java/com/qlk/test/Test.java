@@ -1,6 +1,6 @@
 package com.qlk.test;
 
-import com.qlk.dao.ITableModelDao;
+import com.qlk.dao.model.ITableModelDao;
 import com.qlk.po.TableModel;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;

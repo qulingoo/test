@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 
 import javax.sql.DataSource;
 @Component("iTableModelDao")
-public class ITableModelTemplateImpl implements ITableModelDao {
+public class ITableModelTemplateDaoImpl implements ITableModelDao {
     @Autowired
     private DataSource dataSource;
 

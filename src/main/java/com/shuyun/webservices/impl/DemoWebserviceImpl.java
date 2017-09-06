@@ -1,8 +1,9 @@
-package com.shuyun.services.impl;
+package com.shuyun.webservices.impl;
 
 import com.shuyun.dao.TableModelMapper;
 import com.shuyun.po.TableModel;
-import com.shuyun.services.DemoWebservice;
+import com.shuyun.webservices.DemoWebservice;
+
 import org.springframework.beans.factory.annotation.Autowired;
 
 import javax.jws.WebService;

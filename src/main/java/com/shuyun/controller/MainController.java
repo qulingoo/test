@@ -2,7 +2,8 @@ package com.shuyun.controller;
 
 import com.shuyun.bize.ITableModelBize;
 import com.shuyun.po.TableModel;
-import com.shuyun.services.DemoWebservice;
+import com.shuyun.webservices.DemoWebservice;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Controller;

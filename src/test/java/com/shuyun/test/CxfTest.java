@@ -2,7 +2,7 @@ package com.shuyun.test;
 
 
 import com.shuyun.po.TableModel;
-import com.shuyun.services.DemoWebservice;
+import com.shuyun.webservices.DemoWebservice;
 
 import javax.xml.namespace.QName;
 import javax.xml.ws.Service;

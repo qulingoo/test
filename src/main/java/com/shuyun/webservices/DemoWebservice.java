@@ -1,4 +1,4 @@
-package com.shuyun.services;
+package com.shuyun.webservices;
 
 import com.shuyun.po.TableModel;
 
@@ -8,6 +8,5 @@ import javax.jws.WebService;
 public interface DemoWebservice {
 
     public int insert(TableModel tableModel);
-
     public String queryBaseTxById(String id);
 }

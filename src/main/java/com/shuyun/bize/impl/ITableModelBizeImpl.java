@@ -4,7 +4,9 @@ import com.shuyun.bize.ITableModelBize;
 import com.shuyun.dao.TableModelMapper;
 import com.shuyun.po.TableModel;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
+@Service("iTableModelBize")
 public class ITableModelBizeImpl implements ITableModelBize {
     @Autowired
     private TableModelMapper tableModelMapper;

@@ -27,7 +27,6 @@
     delete from table_model
     where ID = #{id,jdbcType=VARCHAR}
   </delete>
-
   <insert id="insert" parameterType="com.shuyun.po.TableModel">
     insert into table_model
     <trim prefix="(" suffix=")" suffixOverrides=",">

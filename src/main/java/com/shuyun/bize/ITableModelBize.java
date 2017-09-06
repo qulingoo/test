@@ -1,6 +1,6 @@
-package com.qlk.bize;
+package com.shuyun.bize;
 
-import com.qlk.po.TableModel;
+import com.shuyun.po.TableModel;
 
 public interface ITableModelBize {
     int delete(String id);

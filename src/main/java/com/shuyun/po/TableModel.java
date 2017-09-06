@@ -1,4 +1,4 @@
-package com.qlk.po;
+package com.shuyun.po;
 
 public class TableModel {
     private String id;

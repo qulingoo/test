@@ -1,8 +1,8 @@
-package com.qlk.bize.impl;
+package com.shuyun.bize.impl;
 
-import com.qlk.bize.ITableModelBize;
-import com.qlk.dao.TableModelMapper;
-import com.qlk.po.TableModel;
+import com.shuyun.bize.ITableModelBize;
+import com.shuyun.dao.TableModelMapper;
+import com.shuyun.po.TableModel;
 import org.springframework.beans.factory.annotation.Autowired;
 
 public class ITableModelBizeImpl implements ITableModelBize {

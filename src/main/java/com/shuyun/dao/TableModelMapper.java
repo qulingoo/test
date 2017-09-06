@@ -1,6 +1,6 @@
-package com.qlk.dao;
+package com.shuyun.dao;
 
-import com.qlk.po.TableModel;
+import com.shuyun.po.TableModel;
 
 public interface TableModelMapper {
     int delete(String id);

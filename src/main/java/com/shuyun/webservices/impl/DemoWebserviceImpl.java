@@ -13,12 +13,12 @@ public class DemoWebserviceImpl implements DemoWebservice {
     @Autowired
     private TableModelMapper tableModelMapper;
 
-    @Override
+    
     public int insert(TableModel tableModel) {
         return tableModelMapper.insert(tableModel);
     }
 
-    @Override
+    
     public String queryBaseTxById(String id) {
         return null;
     }
